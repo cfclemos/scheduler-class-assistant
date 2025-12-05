@@ -4,13 +4,6 @@
 
 The **Scheduler-ClassAssistant** is a robust tool for creating and optimizing academic timetables. It leverages concepts from **mathematical programming**, such as **genetic algorithms** and **integer methods**, to solve complex resource-allocation and constraint problems.
 
-This project simplifies schedule management by considering factors such as:
-
-* 👨‍🏫 Teacher availability
-* 🏫 Classroom capacity
-* ⏰ Time constraints (preferences and unavailability)
-* 🔄 Optimization of idle gaps between classes
-
 With an intuitive graphical interface, the system enables easy visualization and adjustment of generated schedules, combining the power of advanced optimization techniques with practical usability.
 
 ---
@@ -35,8 +28,8 @@ Genetic algorithms are inspired by natural selection. In this project, they help
 2. **📈 Fitness Function**
    Evaluates how suitable a solution is by considering:
 
-   * Scheduling conflicts (e.g., two teachers in the same room).
-   * Teacher and student preferences.
+   * Scheduling conflicts (e.g., two monitors in the same room).
+   * Student preferences.
    * Minimization of idle times.
      The fewer the conflicts and the closer to preferences, the better the score.
 
